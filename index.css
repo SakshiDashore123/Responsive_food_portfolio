@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand{
+    font-size: 30px;
+    color: black;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* font-family: "Poppins", sans-serif; */
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248, 26, 92);
+}
+.btn1{
+    height: 40px;
+    width: 40%;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.main{
+    background-image: url("f2.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main h1{
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+}
+.btn2{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn2:hover{
+    background-color: rgb(214, 182, 123);
+    color: black;
+    border: 1px solid black;
+}
+h1{
+    font-weight: 800;
+    color: black;
+     font-size: 40px;
+}
+.btn3{
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn3:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(37, 36, 36);
+}
+.card:hover{
+    background-color: lightblue;
+    box-shadow: 3px 3px rgb(237, 225, 225);
+    transform: scale(1.1);
+}
+h4{
+   color: black;
+   font-weight: 700;
+   text-transform: capitalize; 
+}
+ h1, h6{
+    text-transform: capitalize;
+ }
+ .apple{
+    height: 80vh;
+    width: 100vw;
+    background-image: url("app.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* font-size: large; */
+ }
+ .news{
+    background-color: black;
+    color: white;
+ }
+ .bt{
+    height: 45px;
+    width: 100px;
+    background-color: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+ }
+ .news input{
+    height: 45px;
+    width: 45%;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+ }
+ .news h1{
+    color: white;
+    font-weight: 800;
+ }
+ .news::placeholder{
+    color: white;
+ }
+ .news p{
+    margin: 0;
+    text-transform: capitalize;
+    color: white;
+ }
+ .fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+ }
